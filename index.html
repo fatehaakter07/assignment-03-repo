@@ -20,7 +20,7 @@
 <body class=".sora-font">
    <header>
     <!-- nav styles -->
-    <nav class=" px-4 md:px-16 lg:px-36  py-3  flex justify-between items-center  ">
+    <nav class=" px-4 md:px-16 lg:px-36  py-3  flex justify-between items-center gap-5 md:gap-6 lg:gap-10 ">
 
         <div>
             <img src="./c2-assets/logo-header.png" alt="">
@@ -41,6 +41,7 @@
               </svg>
               
             <button class="border-[#179800] text-xl  border-2 rounded-md   md:px-3 lg:px-3 font-regular">Login</button>  
+
             <button class="text-xl bg-[#179800] text-white  rounded-md py-1 md:px-3 lg:px-3  font-regular">Register</button>  </div>
 
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 lg:hidden md:hidden">
@@ -51,27 +52,29 @@
 
 <!-- banner section -->
 
-<div class="flex flex-col justify-center items-center px-2 md:mx-140 lg:mx-200 bg-gradient-to-t from-[#EFEBE3] to-[#FFFFFF]">
+<section class="flex flex-col justify-center items-center px-2 md:mx-140  lg:mx-200 bg-gradient-to-t from-[#EFEBE3] to-[#FFFFFF]">
 
 <div class=" flex flex-col justify-center items-center  ">
-  <h3 class="text-2xl lg:text-6xl font-semibold a" >Freshness <span style="color:#179800 ;"
+  <h3 class="text-2xl lg:text-6xl font-semibold mt-6" >Freshness <span style="color:#179800 ;"
     > You Can </span></h3>
 
-    <h3 class=" text-2xl lg:text-6xl font-semibold text-center" > <span class="" style="color:#179800 ;">Count </span> on, Prices <br class=" md:hidden lg:hidden"> You’ll Love!</h3>
-    <p class=" text-sm lg:text-xl w-4/6 text-center">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
+    <h3 class="mt-1 text-2xl lg:text-6xl font-semibold text-center" > <span class="" style="color:#179800 ;">Count </span> on, Prices <br class=" md:hidden lg:hidden"> You’ll Love!</h3>
+    <p class=" text-sm lg:text-xl w-4/6 text-center mt-6">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
 </div>
+
 <div>
 <img src="./c2-assets/hero-vegetables.png" alt="">
 </div>
-
+</section>
 
    </header>
     
    <main class="">
     <!-- 3 cards section -->
-<div class="px-4 md:px-20 lg:px-40 flex flex-col  border-red-300 border-2 ">
+<section class="px-4 mt-16 md:px-20 lg:px-40 flex flex-col  border-red-300 border-2 ">
 
-<h3 class="font-semibold text-4xl text-[#179800]">Services</h3>
+<h3 class="font-semibold mb-4 text-4xl text-[#179800]">Services</h3>
+
 <!-- cards -->
 <div class="grid grid-cols-1 md:flex lg:flex gap-4">
 <!-- card-1 -->
@@ -116,12 +119,71 @@
 </div>
 
 
+</section>
+
+<!-- popular section -->
+
+<section class=" flex flex-col  border-red-300 border-2 bg-[#EFEBE3]">
+
+<div class="px-4 mt-16 md:px-20 lg:px-40 flex flex-col">
+
+  <h3 class="font-semibold mb-4 text-4xl text-[#179800]">Popular Products</h3>
+
+
+  <!-- 2 cards -->
+  <div class="">
+
+<div class="bg-gradient-to-br from-[#53DB3A] to-[#FFFFFF] relative ">
+
+  <h3 class="text-3xl font-semibold text-white" >30% Off</h3>
+  <div>
+  <p class="text-base">Discover a world of treats,toys and essentials handpicked for you.</p>
+ <button class="bg-white rounded-md px-4 font-semibold text-xl py-2 ">Buy Now </button>
+</div>
+
+<div class="offer-pic ">
+<img src="./c2-assets/vegetable-offer.png" alt="">
+</div>
+
 </div>
 
 
+</div>
+
+</div>
+<!-- items section -->
+
+<div class="grid grid-cols-3">
 
 
 
+
+
+<div class="bg-white rounded-lg p-4">
+   <div><img src="./c2-assets/" alt=""></div>
+   <div></div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+</section>
    </main>
 </body>
 </html>
